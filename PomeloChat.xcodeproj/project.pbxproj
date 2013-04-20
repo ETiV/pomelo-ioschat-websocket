@@ -24,7 +24,6 @@
 		B280B8C1168C506B002B48AF /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B280B8C0168C506B002B48AF /* ContactsViewController.m */; };
 		B280B8C5168C5248002B48AF /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B280B8C3168C5248002B48AF /* ChatViewController.m */; };
 		B280B8C6168C5248002B48AF /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B280B8C4168C5248002B48AF /* ChatViewController.xib */; };
-		CC303D1A172285A200C112EE /* Pomelo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D00172285A200C112EE /* Pomelo.m */; };
 		CC303D1B172285A200C112EE /* PomeloWS.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D03172285A200C112EE /* PomeloWS.m */; };
 		CC303D1C172285A200C112EE /* PBCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D07172285A200C112EE /* PBCodec.m */; };
 		CC303D1D172285A200C112EE /* PBDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D09172285A200C112EE /* PBDecoder.m */; };
@@ -63,7 +62,6 @@
 		B280B8C3168C5248002B48AF /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		B280B8C4168C5248002B48AF /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		CC303CFF172285A200C112EE /* Pomelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pomelo.h; sourceTree = "<group>"; };
-		CC303D00172285A200C112EE /* Pomelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pomelo.m; sourceTree = "<group>"; };
 		CC303D02172285A200C112EE /* PomeloWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWS.h; sourceTree = "<group>"; };
 		CC303D03172285A200C112EE /* PomeloWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomeloWS.m; sourceTree = "<group>"; };
 		CC303D04172285A200C112EE /* PomeloWSErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWSErrors.h; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				CC303CFF172285A200C112EE /* Pomelo.h */,
-				CC303D00172285A200C112EE /* Pomelo.m */,
 			);
 			path = compatible;
 			sourceTree = "<group>";
@@ -295,7 +292,6 @@
 				B280B8BD168C4806002B48AF /* LoginViewController.m in Sources */,
 				B280B8C1168C506B002B48AF /* ContactsViewController.m in Sources */,
 				B280B8C5168C5248002B48AF /* ChatViewController.m in Sources */,
-				CC303D1A172285A200C112EE /* Pomelo.m in Sources */,
 				CC303D1B172285A200C112EE /* PomeloWS.m in Sources */,
 				CC303D1C172285A200C112EE /* PBCodec.m in Sources */,
 				CC303D1D172285A200C112EE /* PBDecoder.m in Sources */,
