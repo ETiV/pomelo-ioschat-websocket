@@ -16,24 +16,25 @@
 		B20B257F16773678005F5A82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B20B257E16773678005F5A82 /* Default.png */; };
 		B20B258116773678005F5A82 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B20B258016773678005F5A82 /* Default@2x.png */; };
 		B20B258316773678005F5A82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B20B258216773678005F5A82 /* Default-568h@2x.png */; };
-		B20B25AE16773A9B005F5A82 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = B20B25A716773A9B005F5A82 /* base64.c */; };
-		B20B25AF16773A9B005F5A82 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B20B25AA16773A9B005F5A82 /* NSData+SRB64Additions.m */; };
-		B20B25B016773A9B005F5A82 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B20B25AD16773A9B005F5A82 /* SRWebSocket.m */; };
 		B20B25BE167745F0005F5A82 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B20B25BD167745F0005F5A82 /* libicucore.dylib */; };
 		B20B25C016774600005F5A82 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20B25BF16774600005F5A82 /* CFNetwork.framework */; };
 		B20B25C216774608005F5A82 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20B25C116774607005F5A82 /* Security.framework */; };
-		B245D833168E876400879092 /* Pomelo.m in Sources */ = {isa = PBXBuildFile; fileRef = B245D82F168E871300879092 /* Pomelo.m */; };
-		B245D835168E876400879092 /* PomeloProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B245D831168E871300879092 /* PomeloProtocol.m */; };
-		B26482EA16898055006D39A1 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = B26482DF168949FC006D39A1 /* SocketIO.m */; };
-		B26482EC16898055006D39A1 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B26482E1168949FC006D39A1 /* SocketIOJSONSerialization.m */; };
-		B26482EE16898055006D39A1 /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = B26482E3168949FC006D39A1 /* SocketIOPacket.m */; };
-		B26482F116898055006D39A1 /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B26482E6168949FC006D39A1 /* SocketIOTransportWebsocket.m */; };
-		B26482F316898055006D39A1 /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = B26482E8168949FC006D39A1 /* SocketIOTransportXHR.m */; };
 		B280B8BD168C4806002B48AF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B280B8BB168C4806002B48AF /* LoginViewController.m */; };
 		B280B8BE168C4806002B48AF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B280B8BC168C4806002B48AF /* LoginViewController.xib */; };
 		B280B8C1168C506B002B48AF /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B280B8C0168C506B002B48AF /* ContactsViewController.m */; };
 		B280B8C5168C5248002B48AF /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B280B8C3168C5248002B48AF /* ChatViewController.m */; };
 		B280B8C6168C5248002B48AF /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B280B8C4168C5248002B48AF /* ChatViewController.xib */; };
+		CC303CF21722725900C112EE /* PomeloWS.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CDA1722725900C112EE /* PomeloWS.m */; };
+		CC303CF31722725900C112EE /* PBCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CDE1722725900C112EE /* PBCodec.m */; };
+		CC303CF41722725900C112EE /* PBDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE01722725900C112EE /* PBDecoder.m */; };
+		CC303CF51722725900C112EE /* PBEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE21722725900C112EE /* PBEncoder.m */; };
+		CC303CF61722725900C112EE /* PBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE41722725900C112EE /* PBHelper.m */; };
+		CC303CF71722725900C112EE /* PomeloWSProtobuf.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE61722725900C112EE /* PomeloWSProtobuf.m */; };
+		CC303CF81722725900C112EE /* PWSProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE81722725900C112EE /* PWSProtocol.m */; };
+		CC303CF91722725900C112EE /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = CC303CEA1722725900C112EE /* base64.c */; };
+		CC303CFA1722725900C112EE /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CED1722725900C112EE /* NSData+SRB64Additions.m */; };
+		CC303CFB1722725900C112EE /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CF01722725900C112EE /* SRWebSocket.m */; };
+		CC303CFD1722739100C112EE /* Pomelo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CFC1722739100C112EE /* Pomelo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,31 +51,9 @@
 		B20B257E16773678005F5A82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B20B258016773678005F5A82 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B20B258216773678005F5A82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B20B25A716773A9B005F5A82 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = base64.c; path = SocketRocket/base64.c; sourceTree = "<group>"; };
-		B20B25A816773A9B005F5A82 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = base64.h; path = SocketRocket/base64.h; sourceTree = "<group>"; };
-		B20B25A916773A9B005F5A82 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+SRB64Additions.h"; path = "SocketRocket/NSData+SRB64Additions.h"; sourceTree = "<group>"; };
-		B20B25AA16773A9B005F5A82 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+SRB64Additions.m"; path = "SocketRocket/NSData+SRB64Additions.m"; sourceTree = "<group>"; };
-		B20B25AB16773A9B005F5A82 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SocketRocket-Prefix.pch"; path = "SocketRocket/SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
-		B20B25AC16773A9B005F5A82 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		B20B25AD16773A9B005F5A82 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
 		B20B25BD167745F0005F5A82 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		B20B25BF16774600005F5A82 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B20B25C116774607005F5A82 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		B245D82E168E871300879092 /* Pomelo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pomelo.h; path = Pomelo/Pomelo.h; sourceTree = "<group>"; };
-		B245D82F168E871300879092 /* Pomelo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Pomelo.m; path = Pomelo/Pomelo.m; sourceTree = "<group>"; };
-		B245D830168E871300879092 /* PomeloProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PomeloProtocol.h; path = Pomelo/PomeloProtocol.h; sourceTree = "<group>"; };
-		B245D831168E871300879092 /* PomeloProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PomeloProtocol.m; path = Pomelo/PomeloProtocol.m; sourceTree = "<group>"; };
-		B26482DE168949FC006D39A1 /* SocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketIO.h; path = SocketIO/SocketIO.h; sourceTree = "<group>"; };
-		B26482DF168949FC006D39A1 /* SocketIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SocketIO.m; path = SocketIO/SocketIO.m; sourceTree = "<group>"; };
-		B26482E0168949FC006D39A1 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketIOJSONSerialization.h; path = SocketIO/SocketIOJSONSerialization.h; sourceTree = "<group>"; };
-		B26482E1168949FC006D39A1 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SocketIOJSONSerialization.m; path = SocketIO/SocketIOJSONSerialization.m; sourceTree = "<group>"; };
-		B26482E2168949FC006D39A1 /* SocketIOPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketIOPacket.h; path = SocketIO/SocketIOPacket.h; sourceTree = "<group>"; };
-		B26482E3168949FC006D39A1 /* SocketIOPacket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SocketIOPacket.m; path = SocketIO/SocketIOPacket.m; sourceTree = "<group>"; };
-		B26482E4168949FC006D39A1 /* SocketIOTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketIOTransport.h; path = SocketIO/SocketIOTransport.h; sourceTree = "<group>"; };
-		B26482E5168949FC006D39A1 /* SocketIOTransportWebsocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketIOTransportWebsocket.h; path = SocketIO/SocketIOTransportWebsocket.h; sourceTree = "<group>"; };
-		B26482E6168949FC006D39A1 /* SocketIOTransportWebsocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SocketIOTransportWebsocket.m; path = SocketIO/SocketIOTransportWebsocket.m; sourceTree = "<group>"; };
-		B26482E7168949FC006D39A1 /* SocketIOTransportXHR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketIOTransportXHR.h; path = SocketIO/SocketIOTransportXHR.h; sourceTree = "<group>"; };
-		B26482E8168949FC006D39A1 /* SocketIOTransportXHR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SocketIOTransportXHR.m; path = SocketIO/SocketIOTransportXHR.m; sourceTree = "<group>"; };
 		B280B8BA168C4806002B48AF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		B280B8BB168C4806002B48AF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		B280B8BC168C4806002B48AF /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -83,6 +62,30 @@
 		B280B8C2168C5248002B48AF /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		B280B8C3168C5248002B48AF /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		B280B8C4168C5248002B48AF /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		CC303CD61722725900C112EE /* Pomelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pomelo.h; sourceTree = "<group>"; };
+		CC303CD91722725900C112EE /* PomeloWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWS.h; sourceTree = "<group>"; };
+		CC303CDA1722725900C112EE /* PomeloWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomeloWS.m; sourceTree = "<group>"; };
+		CC303CDB1722725900C112EE /* PomeloWSErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWSErrors.h; sourceTree = "<group>"; };
+		CC303CDD1722725900C112EE /* PBCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCodec.h; sourceTree = "<group>"; };
+		CC303CDE1722725900C112EE /* PBCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCodec.m; sourceTree = "<group>"; };
+		CC303CDF1722725900C112EE /* PBDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDecoder.h; sourceTree = "<group>"; };
+		CC303CE01722725900C112EE /* PBDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDecoder.m; sourceTree = "<group>"; };
+		CC303CE11722725900C112EE /* PBEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEncoder.h; sourceTree = "<group>"; };
+		CC303CE21722725900C112EE /* PBEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEncoder.m; sourceTree = "<group>"; };
+		CC303CE31722725900C112EE /* PBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHelper.h; sourceTree = "<group>"; };
+		CC303CE41722725900C112EE /* PBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHelper.m; sourceTree = "<group>"; };
+		CC303CE51722725900C112EE /* PomeloWSProtobuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWSProtobuf.h; sourceTree = "<group>"; };
+		CC303CE61722725900C112EE /* PomeloWSProtobuf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomeloWSProtobuf.m; sourceTree = "<group>"; };
+		CC303CE71722725900C112EE /* PWSProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSProtocol.h; sourceTree = "<group>"; };
+		CC303CE81722725900C112EE /* PWSProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSProtocol.m; sourceTree = "<group>"; };
+		CC303CEA1722725900C112EE /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		CC303CEB1722725900C112EE /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		CC303CEC1722725900C112EE /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		CC303CED1722725900C112EE /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		CC303CEE1722725900C112EE /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		CC303CEF1722725900C112EE /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		CC303CF01722725900C112EE /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		CC303CFC1722739100C112EE /* Pomelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pomelo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +138,9 @@
 		B20B257216773678005F5A82 /* PomeloChat */ = {
 			isa = PBXGroup;
 			children = (
-				B2933D761682BA1500A15757 /* Pomelo */,
-				B20B25901677369F005F5A82 /* SocketRocket */,
-				B20B258F1677368A005F5A82 /* SocketIO */,
+				CC303CD51722725900C112EE /* compatible */,
+				CC303CD81722725900C112EE /* PomeloClientWS */,
+				CC303CE91722725900C112EE /* SocketRocket */,
 				B20B257B16773678005F5A82 /* AppDelegate.h */,
 				B20B257C16773678005F5A82 /* AppDelegate.m */,
 				B20B257316773678005F5A82 /* Supporting Files */,
@@ -167,47 +170,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B20B258F1677368A005F5A82 /* SocketIO */ = {
+		CC303CD51722725900C112EE /* compatible */ = {
 			isa = PBXGroup;
 			children = (
-				B26482DE168949FC006D39A1 /* SocketIO.h */,
-				B26482DF168949FC006D39A1 /* SocketIO.m */,
-				B26482E0168949FC006D39A1 /* SocketIOJSONSerialization.h */,
-				B26482E1168949FC006D39A1 /* SocketIOJSONSerialization.m */,
-				B26482E2168949FC006D39A1 /* SocketIOPacket.h */,
-				B26482E3168949FC006D39A1 /* SocketIOPacket.m */,
-				B26482E4168949FC006D39A1 /* SocketIOTransport.h */,
-				B26482E5168949FC006D39A1 /* SocketIOTransportWebsocket.h */,
-				B26482E6168949FC006D39A1 /* SocketIOTransportWebsocket.m */,
-				B26482E7168949FC006D39A1 /* SocketIOTransportXHR.h */,
-				B26482E8168949FC006D39A1 /* SocketIOTransportXHR.m */,
+				CC303CD61722725900C112EE /* Pomelo.h */,
+				CC303CFC1722739100C112EE /* Pomelo.m */,
 			);
-			name = SocketIO;
+			path = compatible;
 			sourceTree = "<group>";
 		};
-		B20B25901677369F005F5A82 /* SocketRocket */ = {
+		CC303CD81722725900C112EE /* PomeloClientWS */ = {
 			isa = PBXGroup;
 			children = (
-				B20B25A716773A9B005F5A82 /* base64.c */,
-				B20B25A816773A9B005F5A82 /* base64.h */,
-				B20B25A916773A9B005F5A82 /* NSData+SRB64Additions.h */,
-				B20B25AA16773A9B005F5A82 /* NSData+SRB64Additions.m */,
-				B20B25AB16773A9B005F5A82 /* SocketRocket-Prefix.pch */,
-				B20B25AC16773A9B005F5A82 /* SRWebSocket.h */,
-				B20B25AD16773A9B005F5A82 /* SRWebSocket.m */,
+				CC303CD91722725900C112EE /* PomeloWS.h */,
+				CC303CDA1722725900C112EE /* PomeloWS.m */,
+				CC303CDB1722725900C112EE /* PomeloWSErrors.h */,
+				CC303CDC1722725900C112EE /* Protobuf */,
+				CC303CE71722725900C112EE /* PWSProtocol.h */,
+				CC303CE81722725900C112EE /* PWSProtocol.m */,
 			);
-			name = SocketRocket;
+			path = PomeloClientWS;
 			sourceTree = "<group>";
 		};
-		B2933D761682BA1500A15757 /* Pomelo */ = {
+		CC303CDC1722725900C112EE /* Protobuf */ = {
 			isa = PBXGroup;
 			children = (
-				B245D82E168E871300879092 /* Pomelo.h */,
-				B245D82F168E871300879092 /* Pomelo.m */,
-				B245D830168E871300879092 /* PomeloProtocol.h */,
-				B245D831168E871300879092 /* PomeloProtocol.m */,
+				CC303CDD1722725900C112EE /* PBCodec.h */,
+				CC303CDE1722725900C112EE /* PBCodec.m */,
+				CC303CDF1722725900C112EE /* PBDecoder.h */,
+				CC303CE01722725900C112EE /* PBDecoder.m */,
+				CC303CE11722725900C112EE /* PBEncoder.h */,
+				CC303CE21722725900C112EE /* PBEncoder.m */,
+				CC303CE31722725900C112EE /* PBHelper.h */,
+				CC303CE41722725900C112EE /* PBHelper.m */,
+				CC303CE51722725900C112EE /* PomeloWSProtobuf.h */,
+				CC303CE61722725900C112EE /* PomeloWSProtobuf.m */,
 			);
-			name = Pomelo;
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		CC303CE91722725900C112EE /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				CC303CEA1722725900C112EE /* base64.c */,
+				CC303CEB1722725900C112EE /* base64.h */,
+				CC303CEC1722725900C112EE /* NSData+SRB64Additions.h */,
+				CC303CED1722725900C112EE /* NSData+SRB64Additions.m */,
+				CC303CEE1722725900C112EE /* SocketRocket-Prefix.pch */,
+				CC303CEF1722725900C112EE /* SRWebSocket.h */,
+				CC303CF01722725900C112EE /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,21 +290,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B245D833168E876400879092 /* Pomelo.m in Sources */,
-				B245D835168E876400879092 /* PomeloProtocol.m in Sources */,
-				B26482EA16898055006D39A1 /* SocketIO.m in Sources */,
-				B26482EC16898055006D39A1 /* SocketIOJSONSerialization.m in Sources */,
-				B26482EE16898055006D39A1 /* SocketIOPacket.m in Sources */,
-				B26482F116898055006D39A1 /* SocketIOTransportWebsocket.m in Sources */,
-				B26482F316898055006D39A1 /* SocketIOTransportXHR.m in Sources */,
 				B20B257916773678005F5A82 /* main.m in Sources */,
 				B20B257D16773678005F5A82 /* AppDelegate.m in Sources */,
-				B20B25AE16773A9B005F5A82 /* base64.c in Sources */,
-				B20B25AF16773A9B005F5A82 /* NSData+SRB64Additions.m in Sources */,
-				B20B25B016773A9B005F5A82 /* SRWebSocket.m in Sources */,
 				B280B8BD168C4806002B48AF /* LoginViewController.m in Sources */,
 				B280B8C1168C506B002B48AF /* ContactsViewController.m in Sources */,
 				B280B8C5168C5248002B48AF /* ChatViewController.m in Sources */,
+				CC303CF21722725900C112EE /* PomeloWS.m in Sources */,
+				CC303CF31722725900C112EE /* PBCodec.m in Sources */,
+				CC303CF41722725900C112EE /* PBDecoder.m in Sources */,
+				CC303CF51722725900C112EE /* PBEncoder.m in Sources */,
+				CC303CF61722725900C112EE /* PBHelper.m in Sources */,
+				CC303CF71722725900C112EE /* PomeloWSProtobuf.m in Sources */,
+				CC303CF81722725900C112EE /* PWSProtocol.m in Sources */,
+				CC303CF91722725900C112EE /* base64.c in Sources */,
+				CC303CFA1722725900C112EE /* NSData+SRB64Additions.m in Sources */,
+				CC303CFB1722725900C112EE /* SRWebSocket.m in Sources */,
+				CC303CFD1722739100C112EE /* Pomelo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
