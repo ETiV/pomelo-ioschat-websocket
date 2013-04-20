@@ -24,17 +24,17 @@
 		B280B8C1168C506B002B48AF /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B280B8C0168C506B002B48AF /* ContactsViewController.m */; };
 		B280B8C5168C5248002B48AF /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B280B8C3168C5248002B48AF /* ChatViewController.m */; };
 		B280B8C6168C5248002B48AF /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B280B8C4168C5248002B48AF /* ChatViewController.xib */; };
-		CC303CF21722725900C112EE /* PomeloWS.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CDA1722725900C112EE /* PomeloWS.m */; };
-		CC303CF31722725900C112EE /* PBCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CDE1722725900C112EE /* PBCodec.m */; };
-		CC303CF41722725900C112EE /* PBDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE01722725900C112EE /* PBDecoder.m */; };
-		CC303CF51722725900C112EE /* PBEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE21722725900C112EE /* PBEncoder.m */; };
-		CC303CF61722725900C112EE /* PBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE41722725900C112EE /* PBHelper.m */; };
-		CC303CF71722725900C112EE /* PomeloWSProtobuf.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE61722725900C112EE /* PomeloWSProtobuf.m */; };
-		CC303CF81722725900C112EE /* PWSProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CE81722725900C112EE /* PWSProtocol.m */; };
-		CC303CF91722725900C112EE /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = CC303CEA1722725900C112EE /* base64.c */; };
-		CC303CFA1722725900C112EE /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CED1722725900C112EE /* NSData+SRB64Additions.m */; };
-		CC303CFB1722725900C112EE /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CF01722725900C112EE /* SRWebSocket.m */; };
-		CC303CFD1722739100C112EE /* Pomelo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303CFC1722739100C112EE /* Pomelo.m */; };
+		CC303D1A172285A200C112EE /* Pomelo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D00172285A200C112EE /* Pomelo.m */; };
+		CC303D1B172285A200C112EE /* PomeloWS.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D03172285A200C112EE /* PomeloWS.m */; };
+		CC303D1C172285A200C112EE /* PBCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D07172285A200C112EE /* PBCodec.m */; };
+		CC303D1D172285A200C112EE /* PBDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D09172285A200C112EE /* PBDecoder.m */; };
+		CC303D1E172285A200C112EE /* PBEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D0B172285A200C112EE /* PBEncoder.m */; };
+		CC303D1F172285A200C112EE /* PBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D0D172285A200C112EE /* PBHelper.m */; };
+		CC303D20172285A200C112EE /* PomeloWSProtobuf.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D0F172285A200C112EE /* PomeloWSProtobuf.m */; };
+		CC303D21172285A200C112EE /* PWSProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D11172285A200C112EE /* PWSProtocol.m */; };
+		CC303D22172285A200C112EE /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = CC303D13172285A200C112EE /* base64.c */; };
+		CC303D23172285A200C112EE /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D16172285A200C112EE /* NSData+SRB64Additions.m */; };
+		CC303D24172285A200C112EE /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC303D19172285A200C112EE /* SRWebSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,30 +62,30 @@
 		B280B8C2168C5248002B48AF /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		B280B8C3168C5248002B48AF /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		B280B8C4168C5248002B48AF /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
-		CC303CD61722725900C112EE /* Pomelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pomelo.h; sourceTree = "<group>"; };
-		CC303CD91722725900C112EE /* PomeloWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWS.h; sourceTree = "<group>"; };
-		CC303CDA1722725900C112EE /* PomeloWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomeloWS.m; sourceTree = "<group>"; };
-		CC303CDB1722725900C112EE /* PomeloWSErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWSErrors.h; sourceTree = "<group>"; };
-		CC303CDD1722725900C112EE /* PBCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCodec.h; sourceTree = "<group>"; };
-		CC303CDE1722725900C112EE /* PBCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCodec.m; sourceTree = "<group>"; };
-		CC303CDF1722725900C112EE /* PBDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDecoder.h; sourceTree = "<group>"; };
-		CC303CE01722725900C112EE /* PBDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDecoder.m; sourceTree = "<group>"; };
-		CC303CE11722725900C112EE /* PBEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEncoder.h; sourceTree = "<group>"; };
-		CC303CE21722725900C112EE /* PBEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEncoder.m; sourceTree = "<group>"; };
-		CC303CE31722725900C112EE /* PBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHelper.h; sourceTree = "<group>"; };
-		CC303CE41722725900C112EE /* PBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHelper.m; sourceTree = "<group>"; };
-		CC303CE51722725900C112EE /* PomeloWSProtobuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWSProtobuf.h; sourceTree = "<group>"; };
-		CC303CE61722725900C112EE /* PomeloWSProtobuf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomeloWSProtobuf.m; sourceTree = "<group>"; };
-		CC303CE71722725900C112EE /* PWSProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSProtocol.h; sourceTree = "<group>"; };
-		CC303CE81722725900C112EE /* PWSProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSProtocol.m; sourceTree = "<group>"; };
-		CC303CEA1722725900C112EE /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
-		CC303CEB1722725900C112EE /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
-		CC303CEC1722725900C112EE /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
-		CC303CED1722725900C112EE /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
-		CC303CEE1722725900C112EE /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
-		CC303CEF1722725900C112EE /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
-		CC303CF01722725900C112EE /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
-		CC303CFC1722739100C112EE /* Pomelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pomelo.m; sourceTree = "<group>"; };
+		CC303CFF172285A200C112EE /* Pomelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pomelo.h; sourceTree = "<group>"; };
+		CC303D00172285A200C112EE /* Pomelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pomelo.m; sourceTree = "<group>"; };
+		CC303D02172285A200C112EE /* PomeloWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWS.h; sourceTree = "<group>"; };
+		CC303D03172285A200C112EE /* PomeloWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomeloWS.m; sourceTree = "<group>"; };
+		CC303D04172285A200C112EE /* PomeloWSErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWSErrors.h; sourceTree = "<group>"; };
+		CC303D06172285A200C112EE /* PBCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCodec.h; sourceTree = "<group>"; };
+		CC303D07172285A200C112EE /* PBCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCodec.m; sourceTree = "<group>"; };
+		CC303D08172285A200C112EE /* PBDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDecoder.h; sourceTree = "<group>"; };
+		CC303D09172285A200C112EE /* PBDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDecoder.m; sourceTree = "<group>"; };
+		CC303D0A172285A200C112EE /* PBEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEncoder.h; sourceTree = "<group>"; };
+		CC303D0B172285A200C112EE /* PBEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEncoder.m; sourceTree = "<group>"; };
+		CC303D0C172285A200C112EE /* PBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHelper.h; sourceTree = "<group>"; };
+		CC303D0D172285A200C112EE /* PBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHelper.m; sourceTree = "<group>"; };
+		CC303D0E172285A200C112EE /* PomeloWSProtobuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PomeloWSProtobuf.h; sourceTree = "<group>"; };
+		CC303D0F172285A200C112EE /* PomeloWSProtobuf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PomeloWSProtobuf.m; sourceTree = "<group>"; };
+		CC303D10172285A200C112EE /* PWSProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSProtocol.h; sourceTree = "<group>"; };
+		CC303D11172285A200C112EE /* PWSProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSProtocol.m; sourceTree = "<group>"; };
+		CC303D13172285A200C112EE /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		CC303D14172285A200C112EE /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		CC303D15172285A200C112EE /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		CC303D16172285A200C112EE /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		CC303D17172285A200C112EE /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		CC303D18172285A200C112EE /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		CC303D19172285A200C112EE /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +138,9 @@
 		B20B257216773678005F5A82 /* PomeloChat */ = {
 			isa = PBXGroup;
 			children = (
-				CC303CD51722725900C112EE /* compatible */,
-				CC303CD81722725900C112EE /* PomeloClientWS */,
-				CC303CE91722725900C112EE /* SocketRocket */,
+				CC303CFE172285A200C112EE /* compatible */,
+				CC303D01172285A200C112EE /* PomeloClientWS */,
+				CC303D12172285A200C112EE /* SocketRocket */,
 				B20B257B16773678005F5A82 /* AppDelegate.h */,
 				B20B257C16773678005F5A82 /* AppDelegate.m */,
 				B20B257316773678005F5A82 /* Supporting Files */,
@@ -170,55 +170,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CC303CD51722725900C112EE /* compatible */ = {
+		CC303CFE172285A200C112EE /* compatible */ = {
 			isa = PBXGroup;
 			children = (
-				CC303CD61722725900C112EE /* Pomelo.h */,
-				CC303CFC1722739100C112EE /* Pomelo.m */,
+				CC303CFF172285A200C112EE /* Pomelo.h */,
+				CC303D00172285A200C112EE /* Pomelo.m */,
 			);
 			path = compatible;
 			sourceTree = "<group>";
 		};
-		CC303CD81722725900C112EE /* PomeloClientWS */ = {
+		CC303D01172285A200C112EE /* PomeloClientWS */ = {
 			isa = PBXGroup;
 			children = (
-				CC303CD91722725900C112EE /* PomeloWS.h */,
-				CC303CDA1722725900C112EE /* PomeloWS.m */,
-				CC303CDB1722725900C112EE /* PomeloWSErrors.h */,
-				CC303CDC1722725900C112EE /* Protobuf */,
-				CC303CE71722725900C112EE /* PWSProtocol.h */,
-				CC303CE81722725900C112EE /* PWSProtocol.m */,
+				CC303D02172285A200C112EE /* PomeloWS.h */,
+				CC303D03172285A200C112EE /* PomeloWS.m */,
+				CC303D04172285A200C112EE /* PomeloWSErrors.h */,
+				CC303D05172285A200C112EE /* Protobuf */,
+				CC303D10172285A200C112EE /* PWSProtocol.h */,
+				CC303D11172285A200C112EE /* PWSProtocol.m */,
 			);
 			path = PomeloClientWS;
 			sourceTree = "<group>";
 		};
-		CC303CDC1722725900C112EE /* Protobuf */ = {
+		CC303D05172285A200C112EE /* Protobuf */ = {
 			isa = PBXGroup;
 			children = (
-				CC303CDD1722725900C112EE /* PBCodec.h */,
-				CC303CDE1722725900C112EE /* PBCodec.m */,
-				CC303CDF1722725900C112EE /* PBDecoder.h */,
-				CC303CE01722725900C112EE /* PBDecoder.m */,
-				CC303CE11722725900C112EE /* PBEncoder.h */,
-				CC303CE21722725900C112EE /* PBEncoder.m */,
-				CC303CE31722725900C112EE /* PBHelper.h */,
-				CC303CE41722725900C112EE /* PBHelper.m */,
-				CC303CE51722725900C112EE /* PomeloWSProtobuf.h */,
-				CC303CE61722725900C112EE /* PomeloWSProtobuf.m */,
+				CC303D06172285A200C112EE /* PBCodec.h */,
+				CC303D07172285A200C112EE /* PBCodec.m */,
+				CC303D08172285A200C112EE /* PBDecoder.h */,
+				CC303D09172285A200C112EE /* PBDecoder.m */,
+				CC303D0A172285A200C112EE /* PBEncoder.h */,
+				CC303D0B172285A200C112EE /* PBEncoder.m */,
+				CC303D0C172285A200C112EE /* PBHelper.h */,
+				CC303D0D172285A200C112EE /* PBHelper.m */,
+				CC303D0E172285A200C112EE /* PomeloWSProtobuf.h */,
+				CC303D0F172285A200C112EE /* PomeloWSProtobuf.m */,
 			);
 			path = Protobuf;
 			sourceTree = "<group>";
 		};
-		CC303CE91722725900C112EE /* SocketRocket */ = {
+		CC303D12172285A200C112EE /* SocketRocket */ = {
 			isa = PBXGroup;
 			children = (
-				CC303CEA1722725900C112EE /* base64.c */,
-				CC303CEB1722725900C112EE /* base64.h */,
-				CC303CEC1722725900C112EE /* NSData+SRB64Additions.h */,
-				CC303CED1722725900C112EE /* NSData+SRB64Additions.m */,
-				CC303CEE1722725900C112EE /* SocketRocket-Prefix.pch */,
-				CC303CEF1722725900C112EE /* SRWebSocket.h */,
-				CC303CF01722725900C112EE /* SRWebSocket.m */,
+				CC303D13172285A200C112EE /* base64.c */,
+				CC303D14172285A200C112EE /* base64.h */,
+				CC303D15172285A200C112EE /* NSData+SRB64Additions.h */,
+				CC303D16172285A200C112EE /* NSData+SRB64Additions.m */,
+				CC303D17172285A200C112EE /* SocketRocket-Prefix.pch */,
+				CC303D18172285A200C112EE /* SRWebSocket.h */,
+				CC303D19172285A200C112EE /* SRWebSocket.m */,
 			);
 			path = SocketRocket;
 			sourceTree = "<group>";
@@ -295,17 +295,17 @@
 				B280B8BD168C4806002B48AF /* LoginViewController.m in Sources */,
 				B280B8C1168C506B002B48AF /* ContactsViewController.m in Sources */,
 				B280B8C5168C5248002B48AF /* ChatViewController.m in Sources */,
-				CC303CF21722725900C112EE /* PomeloWS.m in Sources */,
-				CC303CF31722725900C112EE /* PBCodec.m in Sources */,
-				CC303CF41722725900C112EE /* PBDecoder.m in Sources */,
-				CC303CF51722725900C112EE /* PBEncoder.m in Sources */,
-				CC303CF61722725900C112EE /* PBHelper.m in Sources */,
-				CC303CF71722725900C112EE /* PomeloWSProtobuf.m in Sources */,
-				CC303CF81722725900C112EE /* PWSProtocol.m in Sources */,
-				CC303CF91722725900C112EE /* base64.c in Sources */,
-				CC303CFA1722725900C112EE /* NSData+SRB64Additions.m in Sources */,
-				CC303CFB1722725900C112EE /* SRWebSocket.m in Sources */,
-				CC303CFD1722739100C112EE /* Pomelo.m in Sources */,
+				CC303D1A172285A200C112EE /* Pomelo.m in Sources */,
+				CC303D1B172285A200C112EE /* PomeloWS.m in Sources */,
+				CC303D1C172285A200C112EE /* PBCodec.m in Sources */,
+				CC303D1D172285A200C112EE /* PBDecoder.m in Sources */,
+				CC303D1E172285A200C112EE /* PBEncoder.m in Sources */,
+				CC303D1F172285A200C112EE /* PBHelper.m in Sources */,
+				CC303D20172285A200C112EE /* PomeloWSProtobuf.m in Sources */,
+				CC303D21172285A200C112EE /* PWSProtocol.m in Sources */,
+				CC303D22172285A200C112EE /* base64.c in Sources */,
+				CC303D23172285A200C112EE /* NSData+SRB64Additions.m in Sources */,
+				CC303D24172285A200C112EE /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
